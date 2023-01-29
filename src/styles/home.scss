@@ -1,0 +1,51 @@
+
+
+.column1 {
+    background-image: "R.jpg";
+    
+  }
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+    background-color: white;
+  }
+  .right {
+    right: 0;
+    background-color:rgba(245, 99, 216, 0.385);
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .center {
+    text-align: center;
+    margin-top: 20%;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: italic;
+  }
+  .style{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-weight: 600;
+    font-size: large;
+    font-style: oblique;
+  }
+  
